@@ -1,0 +1,14 @@
+{
+  "name": "deepmix",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "深合并（Node.js 22，ESM，仅 node: 内置模块）",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node check/check.mjs"
+  }
+}
